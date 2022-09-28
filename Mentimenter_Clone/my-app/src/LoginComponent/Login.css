@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#signUpFacebook:hover{
+   background-color: #2852a6;
+   transition: ease-in ,0.3s;
+}
+#signUpGoogle:hover{
+    background-color:#a8abb5 ;
+    color: white;
+    transition: ease-in ,0.4s;
+}
+#logInFacebook:hover{
+    background-color: #2852a6;
+    transition: ease-in ,0.3s;
+}
+#logInGoogle:hover{
+    background-color:#a8abb5 ;
+    color: white;
+    transition: ease-in ,0.4s;
+}
+
