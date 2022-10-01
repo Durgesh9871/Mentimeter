@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainNavBar{
+    border-bottom: 1px solid #edeef0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: #ffffff;
+    font-weight: 500;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+#mainNavBar > div{
+    /* border: 2px solid black; */
+    height: auto;
+}
+   
+#mainNavBar > div:nth-child(1){
+    width: auto;
+}
+#mainNavBar > div:nth-child(2){
+    width: 32%;
+  
+    
+    
+}
+#mainNavBar > div:nth-child(3){
+    width: auto;
+    display: flex;
+    width: 12%;
+    justify-content: space-evenly;
+}
+#mainNavItems{
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+
+
+.navHover:hover{
+    color: #0561ff;
+    cursor: pointer;
+    transition: ease-in 0.2s ;
+}
+#FEATURE_DROP_DOWN_ID , #Solutions_DROP_DOWN_ID , #Resources_DROP_DOWN_ID{
+    color: black;
+    font-weight: 500;
+}
+/*  ----------------------------------------DROP DOWN MENU ----------------- */
+
+#Features , #Solutions #Resources{
+    line-height: 25px;
+}
+
+.FEATURES_DROP_DOWN,.Solutions_DROP_DOWN ,.Resources_DROP_DOWN{
+    display: none;
+    transition: ease-out 13s ;
+    line-height: 40px;
+   
+}
+
+#Features:hover .FEATURES_DROP_DOWN {
+    display: block;
+    transition-delay: 10s ;
+    position: absolute;
+    left: 34.5%;
+    top: 80%;
+    /* width: 150px ; */
+    padding:0px 25px 25px 25px;
+    font-size: 16px;
+    background-color: #ecedef ;
+     /* transition: ease-out 10s ; */
+    
+   
+       
+}
+.FEATURES_DROP_DOWN>div>:hover,.Solutions_DROP_DOWN>div>:hover ,.Resources_DROP_DOWN>div>:hover {
+    color: #0561ff;
+   
+}
+
+/*  SOLUTIONS DROP DOWN MENU --------------------------------------- */
+#Solutions:hover .Solutions_DROP_DOWN {
+    display: block;
+    transition-delay: 10s ;
+    position: absolute;
+    left: 42%;
+    top: 80%;
+    /* width: 150px ; */
+    padding:0px 25px 25px 25px;
+    font-size: 16px;
+    background-color: #ecedef ;
+     /* transition: ease-out 10s ; */
+    
+}
+
+/* RESOURCES DROP DOWN -------------------------------------- */
+
+#Resources:hover .Resources_DROP_DOWN {
+    display: block;
+    transition-delay: 10s ;
+    position: absolute;
+    left: 48%;
+    top: 80%;
+    /* width: 150px ; */
+    padding:0px 25px 25px 25px;
+    font-size: 16px;
+    background-color: #ecedef ;
+     /* transition: ease-out 1s ; */
+    
+}
+
+   
+
+/*  DROP DOWN ------------FINISHED-------------------------------->   */
+
+#HomePageText{
+    font-size: 52px;
+    text-align: center;
+      font-weight: bolder;
+     /* border: 2px solid red; */
+     width:52%;
+     margin:130px auto 50px auto;
+     line-height: 63px;
+}
+#HomePageText_2{
+    width: 42%;
+    /* border: 2px solid red; */
+    margin:-42px auto 0px auto;
+    font-size: 22px;
+    text-align: center;
+    color: #9397a4;
+}
+#ButtonHomePage{
+   font-weight: bold;
+}
+       
+/*   WHAT IS MENTIMETER ------------------------------------------------------->     */
+
+#whatIsMentimeter{
+    /* border: 2px solid red; */
+    height: 82vh;
+    margin:50px 0px 0px 0px  ;
+    background-color: #ecedef ;
+    
+   
+}
+#whatIsMentimeter h1  {
+    font-weight: 600;
+    font-size: 45px;
+    color: #196cff;
+}
+#whatIsMentimeter_Div {
+    /* border: 2px solid black; */
+   width: 70%;
+   margin: auto;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+  
+}
+#whatIsMentimeter_Div>div{
+    width: 30%;
+    /* border: 2px solid red; */
+    text-align: center;
+   
+}
+#MyButton{
+    color: #0078ff;
+    border: 3px solid #0078ff ;
+    font-size: 18px;
+    padding: 8px 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: ease-in 0.3s;
+}
+#MyButton:hover{
+    color: #ffffff;
+    background-color: #0078ff ;
+    transition: ease-in 0.2s ;
+
+}
+
+/*  MillionOfVoice ----------------------------------------------------------- */
+#MillionOfVoice h1{
+    /* border: 2px solid red; */
+    width: 40%;
+    line-height: 48px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+
+}
+#MillionOfVoice_Div , #MillionOfVoice_Div_Image{
+    /* border: 2px solid black; */
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#MillionOfVoice_Div >div >p{
+   font-size: 72px;
+   font-weight: 600;
+   padding: 38px 38px 0px 38px;
+   /* border-bottom: 2px solid black; */
+   /* border: 2px solid red; */
+}
+
+#MillionOfVoice_Div_Image>div{
+    /* border: 2px solid yellow ; */
+    width: 45%;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+
+}
+#Background_Multi_Color {
+    /* border: 2px solid red; */
+    height: 40vh;
+    margin: 60px 0px 0px 0px ;
+    background-image: url('https://i0.wp.com/www.templatescatalog.com/wp-content/uploads/2020/07/Multicolor-background-from-cardboard-of-different-colors.jpg?fit=1600%2C1067&ssl=1');
+    background-size: cover;
+    text-align: center;
+    /* margin: auto; */
+}
+#Background_Multi_Color > div{
+    width: 40%;
+    margin: auto;
+    line-height: 50px;
+}
+/*  ----------------------------------FOOTER -------------------------- */
+
+
+
+
+    
