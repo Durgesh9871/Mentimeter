@@ -1,5 +1,6 @@
 import HomeLogo from "./HomoLogo" ;
-import {Text , Divider ,Link , Spacer} from "@chakra-ui/react"
+import {Link} from "react-router-dom"
+import {Text , Divider , Spacer} from "@chakra-ui/react"
 
 export default function Myfooter(){
     return (
@@ -17,7 +18,7 @@ export default function Myfooter(){
            <div>  <Link to="/*">Q&A</Link></div>
            <div> <Link to="/*">Survey</Link></div>
            </div>
-
+           
            <div className="home_features"> <Text fontWeight={700} borderBottom="1px solid black">Resources</Text><Divider mb={3} />
           <div><Link to="/*">Blog</Link></div>
            <div><Link to="/*">How to</Link></div>

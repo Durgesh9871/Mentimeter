@@ -40,7 +40,7 @@ export default function LinkProvider(){
             <div><Link to="/*">Survey</Link></div>
             <div><Link to="/*">Presentation</Link></div>
           </div>
-
+          
         </div>
         <div id="Solutions"  className="navHover">Solutions <i className="fas fa-caret-down"></i> 
         <div className="Solutions_DROP_DOWN" id="Solutions_DROP_DOWN_ID">
