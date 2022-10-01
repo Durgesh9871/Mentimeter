@@ -5,6 +5,7 @@ import HomeMentimeter from "../HomePage/HomeMentimeter";
 import LinkProvider from "./Link"
 import Login from "../LoginComponent/Login";
 import SignUp from "../LoginComponent/SignUp";
+import Error from "../HomePage/Error"
 
 export default function RouteProvider(){
   return(
@@ -16,7 +17,7 @@ export default function RouteProvider(){
         <Route path="/" element={<HomeMentimeter/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
         <Route path="/SignUp" element={<SignUp/>}></Route>
-        <Route path="/*" element={<h1>Not Found</h1>}></Route>
+        <Route path="/*" element={<Error />}></Route>
      
        </Routes>
     </>
