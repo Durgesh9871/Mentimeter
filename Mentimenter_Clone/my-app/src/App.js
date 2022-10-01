@@ -10,6 +10,7 @@ import RouteProvider from './Routes/Routes';
 import LinkProvider from './Routes/Link';
 import {useContext} from "react"
 import { AuthContext } from './Routes/AuthContext';
+// import TitleBar from './Components/Nav';
  
 
 
@@ -23,6 +24,7 @@ function App() {
       {navStatus?< LinkProvider />:""}
     
   < RouteProvider />
+  
 
     </div>
 

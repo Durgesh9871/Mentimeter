@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom"
 export default function HomeLogo(){
     let HomeLogoStyle = {
-        width:"235px",
+        width:"220px",
     }
     return(
         
