@@ -1,4 +1,8 @@
- ## Mentimeter
+<h1 align="center">Mentimeter</h1>
+
+# Deployed URL 👉 [Click here](https://my-eioo8myhn-durgesh9871.vercel.app/)
+
+# Individual Project 
  
 Mentimeter is used to Build interactive presentations with the easy-to-use online editor. Add questions, polls, quizzes gifs and more to your presentation to create fun and engaging presentations.Once your Mentimeter presentation is over, 
 share and export your results for further analysis and even compare data over time to measure the progress of your audience.
